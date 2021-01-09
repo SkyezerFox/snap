@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "snapadmin",
+    "password": "snapadmin",
+    "database": "snap",
+    "entities": ["src/entity/*.ts"],
+    "synchronize": true
+}
